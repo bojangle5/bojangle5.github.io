@@ -1,0 +1,44 @@
+body {
+    width: 850px;
+    height: 1000px;
+}
+
+nav {
+    background-color: #0070c5;
+    font-family: Helvetica, Arial, freesans;
+    color: white;
+    align-content: center;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+nav li {
+    display: inline;
+    font-family: Helvetica, Arial, freesans;
+}
+
+#support {
+    background: #d9d9d9;
+    font-family: Helvetica, Arial, freesans;
+}
+
+div {
+    font-family: Helvetica, Arial, freesans;
+}
+
+p {
+    font-family: Helvetica, Arial, freesans;
+}
+
+h2 {
+    font-family: Helvetica, Arial, freesans;
+}
+
+.nav-links {
+    color: white;
+}
+
+.arch {
+    float: left
+}
