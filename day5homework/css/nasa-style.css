@@ -17,6 +17,7 @@ h1 {
 main {
     background-color: #cccccc;
     float: left;
+    /*    overflow: auto;*/
 }
 
 h3 {
@@ -47,14 +48,20 @@ ul {
     font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     width: 270px;
     float: left;
+    margin-bottom: 20px;
 }
 
 #message {
     height: 70px;
+    width: 170px
+}
+
+#name {
+    width: 170px;
 }
 
 #button {
-    font-weight: bold;
+    font-size: font-weight: bold;
     background-color: dimgrey;
     color: white;
     padding-left: 15px;
