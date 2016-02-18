@@ -1,0 +1,65 @@
+.image {
+    position: relative;
+    width: 850px;
+    height: 450px;
+}
+
+h1 {
+    font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 5em;
+    color: white;
+    position: absolute;
+    top: 140px;
+    right: -335px;
+    width: 100%;
+}
+
+main {
+    background-color: #cccccc;
+    float: left;
+}
+
+h3 {
+    font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    text-align: left;
+}
+
+ul {
+    padding-left: 0;
+    list-style-type: none;
+    font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+#social {
+    float: left;
+    width: 270px;
+    margin-right: 20px;
+}
+
+#office {
+    font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    float: left;
+    width: 270px;
+    margin-right: 20px;
+}
+
+#contact {
+    font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    width: 270px;
+    float: left;
+}
+
+#message {
+    height: 70px;
+}
+
+#button {
+    font-weight: bold;
+    background-color: dimgrey;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom 5px;
+    margin-top: 10px;
+}
