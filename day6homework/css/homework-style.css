@@ -1,158 +1,155 @@
-                * {
-                font-family: "Arial";
-                color: grey;
-            }
-            
-            body {
-                width: 1400px;
-                margin: auto;
-                height: 920px;
-                padding: 20px;
-            }
-            
-            a {
-                color: green;
-            }
-            
-            header {
-                text-align: center;
-                padding-left: 336px;
-                margin-bottom: 5px;
-                width: 50%;
-            }
-            
-            header p {
-                color: lightgrey;
-            }
-            
-            h1,
-            h2,
-            h3 {
-                font-weight: 100;
-            }
-            
-            main {
-                align-content: center;
-            }
-            
-            section {
-                background-color: #f2f2f2;
-                width: 436px;
-                height: 439px;
-                padding: 20px;
-            }
-            
-            #keyboard {
-                width: 630px;
-                float: left;
-            }
-            
-            #keyboard img {
-                width: 100%;
-            }
-            
-            aside {
-                width: 600px;
-                height: 150px;
-                float: right;
-                background-color: #f2f2f2;
-            }
-            
-            aside img {
-                width: 35%;
-                padding: 20px;
-                float: left;
-            }
-            
-            aside h2,
-            aside p {
-                width: 53%;
-                float: left;
-                margin-left: 10px;
-                margin-bottom: 0;
-            }
-            
-            aside h2 {
-                font-size: 129%;
-            }
-            
-            aside p {
-                font-weight: lighter;
-                line-height: 30px;
-            }
-            
-            #laptop {
-                margin-bottom: 15px;
-            }
-            
-            #desk {
-                margin-bottom: 15px;
-            }
-            
-            section,
-            aside {
-                margin-bottom: 15px;
-                margin-left: 20px;
-                float: left;
-            }
-            
-            footer {
-                width: 100%;
-                clear: both;
-                border-top: 2px solid #f2f2f2;
-                border-bottom: 2px solid #f2f2f2;
-                line-height: 30px;
-            }
-            
-            li:before {
-                margin-left: -1em;
-                margin-right: .100em;
-                color: #94bc54;
-            }
-            
-            ul {
-                padding-left: 20px;
-                text-indent: 2px;
-                list-style-type: circle;
-                list-style-position: outside;
-                margin-top: 0;
-            }
-            
-            #profession h3,
-            ul,
-            #features h3,
-            ul {
-                border-right: 1px solid #f2f2f2;
-            }
-            
-            h3 {
-                margin-bottom: 0;
-            }
-            
-            #profession {
-                float: left;
-                margin-left: 52px;
-                width: 380px;
-            }
-            
-            #features {
-                float: left;
-                width: 380px;
-                padding-left: 52px;
-            }
-            
-            #pricing {
-                float: right;
-                width: 380px;
-                padding-right: 73px;
-            }
-            
-            #pricing a {
-                float: right;
-                display: block;
-            }
-            
-            .clear-fix:after {
-                content: '';
-                display: block;
-                clear: both;
+                    * {
+                    font-family: "Arial";
+                    color: grey;
+                }
+                
+                body {
+                    width: 1400px;
+                    margin: auto;
+                    height: 1000px;
+                    padding: 20px;
+                }
+                
+                a {
+                    color: green;
+                }
+                
+                header {
+                    text-align: center;
+                    padding-left: 336px;
+                    margin-bottom: 5px;
+                    width: 50%;
+                }
+                
+                header p {
+                    color: lightgrey;
+                }
+                
+                h1,
+                h2,
+                h3 {
+                    font-weight: 100;
+                }
+                
+                main {
+                    align-content: center;
+                }
+                
+                section {
+                    background-color: #f2f2f2;
+                    width: 500px;
+                    height: 439px;
+                    padding: 20px;
+                    padding-left: 20px
+                }
+                
+                #keyboard {
+                    width: 630px;
+                    float: left;
+                }
+                
+                #section a {
+                    margin-top: 50px;
+                }
+                
+                aside {
+                    width: 600px;
+                    height: 150px;
+                    float: right;
+                    background-color: #f2f2f2;
+                }
+                
+                aside img {
+                    width: 35%;
+                    padding: 20px;
+                    float: left;
+                }
+                
+                aside h2,
+                aside p {
+                    width: 53%;
+                    float: left;
+                    margin-left: 10px;
+                    margin-bottom: 0;
+                }
+                
+                aside h2 {
+                    font-size: 129%;
+                }
+                
+                aside p {
+                    font-weight: lighter;
+                    line-height: 30px;
+                }
+                
+                #laptop {
+                    margin-bottom: 15px;
+                }
+                
+                #desk {
+                    margin-bottom: 15px;
+                }
+                
+                section,
+                aside {
+                    margin-bottom: 15px;
+                    margin-left: 20px;
+                    float: left;
+                }
+                
+                footer {
+                    width: 100%;
+                    clear: both;
+                    border-top: 2px solid #f2f2f2;
+                    border-bottom: 2px solid #f2f2f2;
+                    line-height: 30px;
+                }
+                
+                li:before {
+                    margin-left: -1em;
+                    margin-right: .100em;
+                    color: #94bc54;
+                }
+                
+                ul {
+                    padding-left: 20px;
+                    text-indent: 2px;
+                    list-style-type: circle;
+                    list-style-position: outside;
+                    margin-top: 0;
+                }
+                
+                #profession h3,
+                ul,
+                #features h3,
+                ul {
+                    border-right: 2px solid #f2f2f2;
+                }
+                
+                #profession {
+                    float: left;
+                    margin-left: 52px;
+                    width: 380px;
+                }
+                
+                #features {
+                    float: left;
+                    width: 380px;
+                    padding-left: 52px;
+                }
+                
+                #pricing {
+                    float: left;
+                    width: 300px;
+                    padding-left: 73px;
+                }
+                
+                #pricing a {
+                    float: right;
+                    display: block;
+                }
+                
+                .clear-fix:after {
+                    content: '';
+                    display: block;
+                    clear: both;
