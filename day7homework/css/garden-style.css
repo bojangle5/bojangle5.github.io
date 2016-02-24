@@ -1,0 +1,144 @@
+.small-box {
+    width: 300px;
+    padding: 40px;
+}
+
+.small-box h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Arial;
+    font-size: 1.7em;
+    padding: 30px;
+    text-align: left;
+}
+
+.small-box p {
+    color: green;
+    font-family: Arial;
+    margin-top: -30px
+}
+
+#grow {
+    background: url('../img/featured-image-3.jpg');
+    background-repeat: no-repeat;
+    margin: 15px;
+    height: 180px;
+    width: 290px;
+}
+
+#plant {
+    background: url('../img/featured-image-4.jpg');
+    background-repeat: no-repeat;
+    margin: 15px;
+    height: 180px;
+    width: 290px;
+}
+
+#land {
+    filter: alpha(opacity=40);
+    background-color: #000;
+    background: url('../img/featured-image-5.jpg');
+    background-repeat: no-repeat;
+    margin: 15px;
+    width: 600px;
+    height: 420px;
+    padding: 50px;
+    float: left;
+}
+
+#land h1 {
+    font-family: Arial;
+    color: #FFF;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    margin-top: 175px;
+    padding-bottom: 20px;
+    font-size: 35px;
+}
+
+#land a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid;
+    text-align: center;
+    padding: 15px;
+    font-family: Arial;
+    background-color: lightslategrey;
+}
+
+#land h3 {
+    color: green;
+    font-family: Arial;
+    padding-bottom: 15px;
+    font-size: 20px
+}
+
+#land p {
+    padding-bottom: 40px;
+}
+
+main {
+    width: 1150px;
+}
+
+aside {
+    float: left;
+}
+
+#indexbg {
+    background: url(../img/1.jpg);
+    background-repeat: no-repeat;
+    width: 1150px;
+    height: 400px;
+    text-align: center;
+    padding-top: 200px;
+}
+
+#indexbg p {
+    color: #fff;
+    font-family: Arial;
+    font-size: .8em
+}
+
+#indexbg h1 {
+    color: #fff;
+    font-family: Arial;
+    font-size: 2em;
+    padding: 15px;
+}
+
+#indexbg h3 {
+    color: #fff;
+    font-family: Arial;
+    font-size: .95em;
+    padding-bottom: 40px;
+}
+
+#land p {
+    color: #fff;
+    font-family: Arial;
+    padding-bottom:
+}
+
+#contact {
+    color: white;
+    background-color: #abc656;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px;
+}
+
+#indexbg a {
+    color: #fff;
+    font-family: Arial;
+    border: 20px;
+    border-color: darkolivegreen;
+}
+
+.clear-fix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
