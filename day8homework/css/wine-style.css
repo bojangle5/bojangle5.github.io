@@ -94,8 +94,7 @@
     
     #testimonial {
         clear: both;
-        background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/wine13.jpg);
-        background-size: cover;
+        background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/wine13.jpg);
         height: 350px;
         text-align: center;
         color: white;
