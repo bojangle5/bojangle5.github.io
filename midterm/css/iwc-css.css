@@ -1,0 +1,117 @@
+body {
+    font-family: 'roboto', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    height: 25px;
+    padding: 10px 0px;
+}
+
+header h1 {
+    font-size: 1.7em;
+    float: left;
+    font-weight: lighter;
+}
+
+header nav {
+    float: right;
+}
+
+header nav a {
+    font-size: 1.4em;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+#hero {
+    background-image: url(../img/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 140px;
+    font-size: 5em;
+    color: white;
+}
+
+#hero p {
+    color: lightgray;
+    padding-left: 250px;
+}
+
+#welcome img {
+    float: left;
+    width: 46%;
+    Padding-top: 12px;
+}
+
+#welcome h3 {
+    text-align: center;
+    font-size: 1.4em;
+    padding-top: 100px
+}
+
+#welcome p {
+    padding-top: 9px;
+    padding-left: 520px;
+    padding-bottom: 46px
+}
+
+.clear-fix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#watches div {
+    height: 400px;
+    padding-top: 14px;
+    float: left;
+    text-align: center;
+    align-content: center;
+    width: 25%
+}
+
+#watches img {
+    width: 90%;
+}
+
+#schematic div {
+    float: left;
+    width: 400px;
+    height: 280px;
+    align-content: center;
+    margin-left: 40px
+}
+
+#div-left {
+    text-align: center;
+}
+
+#left {
+    width: 400px;
+    height: 260px;
+}
+
+#div-right {
+    text-align: center;
+}
+
+#right {
+    width: 400px;
+    height: 260px;
+}

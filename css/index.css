@@ -35,6 +35,11 @@ nav {
     padding: 5px;
 }
 
+nav a {
+    background-color: black;
+        color: white;
+    border: solid 1px;
+}
 body {
     background: black;
 }
