@@ -42,6 +42,7 @@ header nav a:hover {
 }
 
 h2 {
+    font-family: Times-new-roman;
     text-align: center;
     padding-top: 140px;
     font-size: 5em;
@@ -51,6 +52,18 @@ h2 {
 #hero p {
     color: lightgray;
     padding-left: 250px;
+    padding-bottom: 40px
+}
+
+#hero a {
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    font-weight: lighter;
+    margin-left: 412px;
+    text-decoration: none;
+    border: solid 1px;
+    padding: 10px
 }
 
 #welcome img {
@@ -60,6 +73,7 @@ h2 {
 }
 
 #welcome h3 {
+    font-family: Times-new-roman;
     text-align: center;
     font-size: 1.4em;
     padding-top: 100px
@@ -80,10 +94,11 @@ h2 {
 #watches div {
     height: 400px;
     padding-top: 14px;
+    padding-bottom: 50px;
     float: left;
     text-align: center;
     align-content: center;
-    width: 25%
+    width: 25%;
 }
 
 #watches img {
@@ -95,7 +110,9 @@ h2 {
     width: 400px;
     height: 280px;
     align-content: center;
-    margin-left: 40px
+    margin-left: 40px;
+    background-color: #e6e6e6;
+    padding-bottom: 44px
 }
 
 #div-left {
@@ -109,9 +126,44 @@ h2 {
 
 #div-right {
     text-align: center;
+    margin-left: 40px;
 }
 
 #right {
     width: 400px;
     height: 260px;
+}
+
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#skyplane {
+    margin-top: 350px;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(20, 20, 20, 0.7) 0%, rgba(0, 0, 0, 0.4) 100%), url(../img/collapsed_background.aab9f24da8b8047b077e2dc92f2247c2.jpg)
+}
+
+h5 {
+    font-family: Time-new-roman;
+    font-size: 2.9em;
+    text-align: center;
+    color: white;
+    padding-top: 130px;
+    padding-bottom: 40px
+}
+
+#skyplane a {
+    color: white;
+    margin-top: 40px;
+    margin-left: 12px;
+    font-size: 1.7em;
+    text-decoration: none;
+    padding: 6px;
+    position: relative;
+    font-family: Times;
 }
