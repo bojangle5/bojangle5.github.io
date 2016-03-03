@@ -52,7 +52,7 @@ h2 {
 #hero p {
     color: lightgray;
     padding-left: 250px;
-    padding-bottom: 40px
+    padding-bottom: 30px
 }
 
 #hero a {
@@ -149,7 +149,7 @@ h2 {
 }
 
 h5 {
-    font-family: Time-new-roman;
+    font-family: Times-new-roman;
     font-size: 2.9em;
     text-align: center;
     color: white;

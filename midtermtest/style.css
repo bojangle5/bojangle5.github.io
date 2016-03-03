@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    font-family: Arial;
+}
+
+h2 {
+    font-size: 4em;
+    text-align: center;
+    font-family: Arial;
+}
+
+p {
+    font-family: Arial;
+    font-size: 1.4em;
+    text-align: center;
+    margin-left: 200px;
+    padding-right: 200px
+}
+
+.images {
+    float: left;
+}
+
+.images img {
+    width: 20%;
+    align-content: center;
+    padding: 60px
+}
