@@ -21,6 +21,11 @@ h1 {
     background-repeat: no-repeat;
 }
 
+#about-us {
+    margin: 10px auto;
+    text-align: center;
+}
+
 h2 {
     font-size: 4em;
     text-align: center;
@@ -39,9 +44,10 @@ p {
 
 #images div {
     align-content: center;
-    margin-left: 10%;
-    margin-top: 60px;
+    margin: auto 0;
     float: left;
+    padding: 40px 6.5%;
+    margin-bottom: 100px;
 }
 
 #flag {
