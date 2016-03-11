@@ -1,5 +1,6 @@
-* {
-    margin: 0;
+body {
+    width: 80%;
+    margin: 0 auto;
 }
 
 h1 {
@@ -10,6 +11,7 @@ h1 {
     0px;
     padding: 15px;
     font-family: Arial;
+    font-size: 50px;
 }
 
 #hero div {
@@ -30,14 +32,14 @@ h2 {
 p {
     font-family: Arial;
     font-size: 1.4em;
-    text-align: center;
+    text-align: left;
     margin-left: 200px;
     padding-right: 200px
 }
 
 #images div {
     align-content: center;
-    margin-left: 13.25%;
+    margin-left: 10%;
     margin-top: 60px;
     float: left;
 }
@@ -55,4 +57,10 @@ p {
 #mount {
     height: 220px;
     width: 220px;
+}
+
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
 }
