@@ -1,5 +1,5 @@
 * {
-    margin: 0
+    margin: 0;
 }
 
 h1 {
@@ -35,28 +35,24 @@ p {
     padding-right: 200px
 }
 
-#images {
-    padding: 100px;
+#images div {
     align-content: center;
+    margin-left: 13.25%;
+    margin-top: 60px;
+    float: left;
 }
 
 #flag {
-    float: left;
-    height: 300px;
-    width: 300px;
-    padding-left 153px;
+    height: 220px;
+    width: 220px;
 }
 
 #scoot {
-    float: left;
-    height: 300px;
-    width: 300px;
-    margin-left: 153px;
+    height: 220px;
+    width: 220px;
 }
 
 #mount {
-    float: left;
-    height: 300px;
-    width: 300px;
-    margin-left: 153px;
+    height: 220px;
+    width: 220px;
 }
