@@ -1,15 +1,30 @@
+* {
+    margin: 0
+}
+
 h1 {
     text-align: center;
     color: white;
     background-color: black;
-    padding: 10px;
+    margin;
+    0px;
+    padding: 15px;
     font-family: Arial;
+}
+
+#hero div {
+    height: 391px;
+    background-image: url(img/pizza.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 h2 {
     font-size: 4em;
     text-align: center;
     font-family: Arial;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 p {
@@ -20,12 +35,28 @@ p {
     padding-right: 200px
 }
 
-.images {
-    float: left;
+#images {
+    padding: 100px;
+    align-content: center;
 }
 
-.images img {
-    width: 20%;
-    align-content: center;
-    padding: 60px
+#flag {
+    float: left;
+    height: 300px;
+    width: 300px;
+    padding-left 153px;
+}
+
+#scoot {
+    float: left;
+    height: 300px;
+    width: 300px;
+    margin-left: 153px;
+}
+
+#mount {
+    float: left;
+    height: 300px;
+    width: 300px;
+    margin-left: 153px;
 }
