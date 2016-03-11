@@ -72,10 +72,6 @@ article:last-child div {
     #hero div {
         height: 316px;
     }
-    #hero-lower {
-        float: left;
-        width: 50%xs
-    }
     #titles article {
         clear: right;
         width: 25%;
