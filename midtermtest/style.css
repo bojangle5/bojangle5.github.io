@@ -14,11 +14,8 @@ h1 {
     font-size: 50px;
 }
 
-#hero div {
-    height: 391px;
-    background-image: url(img/pizza.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
+#hero img {
+    width: 100%;
 }
 
 #about-us {
@@ -37,35 +34,66 @@ h2 {
 p {
     font-family: Arial;
     font-size: 1.4em;
+    align-content: center;
     text-align: left;
-    margin-left: 200px;
-    padding-right: 200px
+    width: 80%;
+    padding-left: 100px
+}
+
+#images {
+    text-align: center;
+    overflow: auto;
 }
 
 #images div {
     align-content: center;
     margin: auto 0;
     float: left;
-    padding: 40px 5%;
+    padding: 0 6%
 }
 
 #flag {
-    height: 220px;
-    width: 220px;
+    height: 200px;
+    width: 200px;
 }
 
 #scoot {
-    height: 220px;
-    width: 220px;
+    height: 200px;
+    width: 200px;
 }
 
 #mount {
-    height: 220px;
-    width: 220px;
+    height: 200px;
+    width: 200px;
 }
 
 .clearfix:after {
     content: '';
     display: block;
     clear: both;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    #images div {
+        padding: 0 3%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #images div {
+        padding: 0 1%
+    }
+    #flag {
+        height: 100px;
+        width: 100px;
+    }
+    #scoot {
+        height: 100px;
+        width: 100px;
+    }
+    #mount {
+        height: 100px;
+        width: 100px;
+    }
 }
