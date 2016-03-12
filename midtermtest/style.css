@@ -73,16 +73,18 @@ p {
     clear: both;
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 1280px) {
     #images div {
-        padding: 0 3%;
+        padding: 0 2%;
         text-align: center;
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     #images div {
-        padding: 0 1%
+        padding: 9px;
+        align-content: center;
+        margin: 0px;
     }
     #flag {
         height: 100px;
@@ -95,5 +97,8 @@ p {
     #mount {
         height: 100px;
         width: 100px;
+    }
+    p {
+        padding-left: 50px
     }
 }
