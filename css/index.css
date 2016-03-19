@@ -11,16 +11,11 @@ img {
     background-color: #999999;
 }
 
-
-
 h3 {
-    color: #252b3b;
+    color: white;
     font-size: 1.5em;
-    font-family: fantasy
-}
-
-p {
-    color: #555;
+    font-family: fantasy;
+    padding-left: 15%;
 }
 
 nav {
@@ -29,24 +24,22 @@ nav {
     font-weight: lighter;
     color: #252b3b;
     text-decoration: none;
-    
-    
-    
+    padding-left: 25%
 }
 
 nav a {
-    color:#555;
+    color: #555;
     text-decoration: none;
     font-size: 1.6em;
-    }
+}
 
 body {
     background: black;
 }
 
 h1 {
+    font-size: 3em;
     font-family: fantasy;
-    color: #252b3b;
+    color: white;
+    padding-left: 15%
 }
-
-
