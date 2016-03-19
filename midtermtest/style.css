@@ -37,92 +37,38 @@ p {
     align-content: center;
     text-align: left;
     width: 80%;
-    padding-left: 100px
+    padding-left: 14%
 }
 
 #images {
     text-align: center;
     overflow: auto;
+    padding: 10%;
+    margin-left: 5%;
 }
 
 #images div {
     align-content: center;
-    margin: auto 20px;
+    margin: auto;
     float: left;
-    padding: 0 6%
+    margin-left: 10%;
+    width: 20%;
 }
 
 #flag {
-    height: 200px;
-    width: 200px;
+    width: 100%
 }
 
 #scoot {
-    height: 200px;
-    width: 200px;
+    width: 100%
 }
 
 #mount {
-    height: 200px;
-    width: 200px;
+    width: 100%;
 }
 
 .clearfix:after {
     content: '';
     display: block;
     clear: both;
-}
-
-@media screen and (min-width: 768px) and (max-width: 1280px) {
-    #images div {
-        padding: 20px;
-        text-align: center;
-        margin-left: 80px
-    }
-    #flag {
-        height: 130px;
-        width: 130px;
-    }
-    #scoot {
-        height: 130px;
-        width: 130px;
-    }
-    #mount {
-        height: 130px;
-        width: 130px;
-    }
-    .clearfix:after {
-        content: '';
-        display: block;
-        clear: both;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    #images div {
-        padding: 9px;
-        align-content: center;
-        margin: 0 auto;
-        image-rendering: auto;
-    }
-    #flag {
-        height: 100px;
-        width: 100px;
-    }
-    #scoot {
-        height: 100px;
-        width: 100px;
-    }
-    #mount {
-        height: 100px;
-        width: 100px;
-    }
-    p {
-        padding-left: 50px
-    }
-    .clearfix:after {
-        content: '';
-        display: block;
-        clear: both;
-    }
 }
