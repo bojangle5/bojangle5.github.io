@@ -1,6 +1,6 @@
 body {
     width: 80%;
-    margin: 0 auto;
+    margin: auto;
 }
 
 h1 {
@@ -75,8 +75,26 @@ p {
 
 @media screen and (min-width: 768px) and (max-width: 1280px) {
     #images div {
-        padding: 0 2%;
+        padding: 20px;
         text-align: center;
+        margin-left: 80px
+    }
+    #flag {
+        height: 130px;
+        width: 130px;
+    }
+    #scoot {
+        height: 130px;
+        width: 130px;
+    }
+    #mount {
+        height: 130px;
+        width: 130px;
+    }
+    .clearfix:after {
+        content: '';
+        display: block;
+        clear: both;
     }
 }
 
@@ -84,7 +102,8 @@ p {
     #images div {
         padding: 9px;
         align-content: center;
-        margin: 0px;
+        margin: 0 auto;
+        image-rendering: auto;
     }
     #flag {
         height: 100px;
@@ -100,5 +119,10 @@ p {
     }
     p {
         padding-left: 50px
+    }
+    .clearfix:after {
+        content: '';
+        display: block;
+        clear: both;
     }
 }

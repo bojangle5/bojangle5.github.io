@@ -4,9 +4,10 @@
     clear: both;
 }
 
-#hero div {
+#hero {
     background-color: #22ccc0;
-    padding: 100px 0px;
+    width: auto;
+    padding: 15% 0 15% 5%;
     color: white;
     text-align: center;
     font-weight: 100;
@@ -15,7 +16,8 @@
 
 #hero-lower {
     background-color: black;
-    padding: 100px 0px;
+    width: auto;
+    padding: 15% 0 15% 5%;
     color: #fff;
     text-align: center;
     font-weight: 100;
@@ -30,7 +32,7 @@
     float: left;
     color: #fff;
     text-align: center;
-    padding: 48.5px;
+    padding: 4%;
     width: 17%;
 }
 
@@ -65,17 +67,21 @@ article:last-child div {
 }
 
 @media screen and (max-width: 767px) {
-    #hero {
-        width: 50%;
+    #hero,
+    #hero-lower {
+        text-align: left;
         float: left;
-    }
-    #hero div {
-        height: 316px;
+        font-size: 1.5em;
+        width: 15%;
+        height: 9em;
+        padding-top: 19%;
+        padding-left: 11%;
+        padding-right: 24%;
     }
     #titles article {
         clear: right;
         width: 25%;
         align-content: center;
-        padding-left: 105px;
+        padding-left: 14.5%;
     }
 }
