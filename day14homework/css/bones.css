@@ -1,0 +1,12 @@
+    .hero {
+    background-image: url(../img/03.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 1000px
+}
+
+.hero h1 {
+    padding: 0 100 0 100;
+    font-size: 6em;
+    text-align: center;
+    padding-top: 30%
