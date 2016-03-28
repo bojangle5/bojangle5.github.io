@@ -1,0 +1,48 @@
+#insight {
+    margin-bottom: 1em;
+    font-size: 20px;
+}
+
+#technology {
+    color: #fff;
+    background: #4c4c4c;
+    padding: 0.5em;
+}
+
+#stories {
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+.link {
+    color: black;
+    padding-top: 20px;
+    font-size: 1.2em;
+}
+
+.link a {
+    color: black;
+    font-weight: bold;
+}
+
+.footer {
+    background: #4c4c4c;
+    color: white;
+    margin-top: 2em;
+    padding: 1em 0 1em 3em;
+}
+
+.footer a {
+    color: white;
+    margin-top: 5%
+}
+
+.line {
+    width: 5em;
+    border-bottom: 3px solid white;
+    margin: 0.5em 0 0.5em 0;
+}
+
+li {
+    list-style: none;
+}
