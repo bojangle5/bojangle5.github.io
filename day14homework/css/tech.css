@@ -4,9 +4,9 @@
 }
 
 #technology {
-    color: #fff;
+    color: white;
     background: #4c4c4c;
-    padding: 0.5em;
+    padding: 1em;
 }
 
 #stories {
@@ -38,11 +38,21 @@
 }
 
 .line {
-    width: 5em;
+    width: 6.5em;
     border-bottom: 3px solid white;
     margin: 0.5em 0 0.5em 0;
 }
 
 li {
     list-style: none;
+}
+
+#facebook {
+    width: 6.5%;
+    margin-left: 2%;
+}
+
+#twitter {
+    width: 7%;
+    margin-left: 8.1%
 }
