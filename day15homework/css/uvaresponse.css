@@ -1,15 +1,35 @@
 .nav a {
     color: white;
+    font-size: 18px;
+    align-content: center
 }
 
 .navbar-brand {
     color: white;
+    font-size: 25px;
+}
+
+#example-navbar-collapse {
+    float: right
 }
 
 #hero {
     background-image: linear-gradient(to bottom, rgba(20, 20, 20, 0.1) 0%, rgba(0, 0, 0, 0.8) 100%), url(../../day15homework/img/wine14.jpg);
+    background-position: cover;
     width: 100%;
     height: 800px;
+}
+
+.ti-twitter-alt {
+    color: white;
+}
+
+.ti-facebook {
+    color: white;
+}
+
+.ti-vimeo-alt {
+    color: white;
 }
 
 #hero h2 {
@@ -29,7 +49,11 @@
 }
 
 #left {
-    padding-top: 15em;
+    margin-top: 15em;
+}
+
+.text-center h5 {
+    font-size: 30px;
 }
 
 #sig {
@@ -78,7 +102,7 @@
 }
 
 #bottles p {
-    padding-bottom: 15px;
+    padding-bottom: 25px;
 }
 
 .link {
@@ -88,6 +112,7 @@
     background-color: #91a159;
     padding: 15px;
     margin-left: 35%;
+    margin-bottom: 20px;
 }
 
 #awards {
@@ -113,4 +138,12 @@
     color: white;
     text-align: center;
     font-size: 1.2em;
+}
+
+#left {
+    padding-top: 51px;
+}
+
+#right {
+    padding-top: 51px;
 }
