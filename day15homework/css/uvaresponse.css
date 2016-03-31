@@ -14,7 +14,7 @@
 }
 
 .icon-bar {
-    color: black;
+    background-color: white;
 }
 
 #hero {
@@ -22,6 +22,20 @@
     background-position: cover;
     width: 100%;
     height: 800px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    font-family: 'Lora', serif;
+    font-style: italic
+}
+
+p {
+    font-style: normal;
 }
 
 .ti-twitter-alt {
@@ -95,7 +109,8 @@
 }
 
 #bottles img {
-    width: 100%;
+    width: 80%;
+    padding-left: 18%
 }
 
 #bottles h2 {
