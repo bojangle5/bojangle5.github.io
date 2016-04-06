@@ -1,0 +1,16 @@
+body {
+    background-color: #c1c1c1;
+}
+
+img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.grey-bg {
+    background-color: lightgray;
+}
+
+.left {
+    padding-right: 20px;
+}
