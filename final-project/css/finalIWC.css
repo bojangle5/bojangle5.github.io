@@ -38,6 +38,7 @@ main {
 }
 
 #hero h1 {
+    font-family: times;
     font-size: 10em;
     text-transform: uppercase;
     color: white;
@@ -82,6 +83,15 @@ h5 {
     padding-bottom: 50px
 }
 
+h2 {
+    font-family: times;
+}
+
+h4 {
+    font-family: times;
+    font-weight: bold
+}
+
 #skyplane a {
     font-size: 2em;
     color: #fff;
@@ -109,23 +119,24 @@ h5 {
     }
     #hero h1 {
         font-size: 6em;
+        font-family: times;
     }
     .title-5em {
         font-size: 20px;
+        font-weight: 100;
     }
     #skyplane {
-        height: 200px
+        height: 100px
     }
     #skyplane a {
-        font-size: 1em;
+        font-size: 1.3em;
         color: #fff;
-        font-weight: bold;
         font-family: times;
     }
     #skyplane h5 {
         font-size: 2em;
         color: #fff;
         font-weight: 100;
-        padding: 0
+        padding: 0;
     }
 }
