@@ -3,10 +3,6 @@ body {
     height: 100%;
 }
 
-body {
-    font-family: 'Lato', sans-serif;
-}
-
 .title-5em {
     font-size: 2em;
     color: #fff;
@@ -32,7 +28,7 @@ main {
 }
 
 #hero {
-    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.7) 0%, rgba(0, 0, 0, 0.4) 100%), url(../img/maxresdefault.jpg);
+    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.7) 0%, rgba(0, 0, 0, 0.1) 100%), url(../img/maxresdefault.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -48,9 +44,14 @@ main {
     text-shadow: 3px 4px 6px rgba(0, 0, 0, 0.5);
 }
 
-.mkxvi {
-    margin-top: 30px;
-    height: 300px;
+#map iframe {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
+
+#info .mkxvi {
+    margin-top: 8%;
 }
 
 #info {
@@ -85,4 +86,31 @@ h5 {
     font-size: 2em;
     color: #fff;
     font-weight: 100;
+}
+
+.carousel-inner>.item>a>img,
+.carousel-inner>.item>img,
+.img-responsive,
+.thumbnail a>img,
+.thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#skyplane a {
+    margin-left: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+    #hero {
+        margin-bottom: 15px;
+    }
+    #hero h1 {
+        font-size: 6em;
+    }
+    .title-5em {
+        font-size: 20px;
+    }
 }
