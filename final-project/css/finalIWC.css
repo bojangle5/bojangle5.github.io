@@ -105,29 +105,27 @@ h5 {
 
 @media only screen and (max-width: 768px) {
     #hero {
-    margin-bottom: 15px;
+        margin-bottom: 15px;
     }
     #hero h1 {
-    font-size: 6em;
+        font-size: 6em;
     }
     .title-5em {
-    font-size: 20px;
+        font-size: 20px;
     }
-    
     #skyplane {
-    height:200px
+        height: 200px
     }
-    
     #skyplane a {
-    font-size: 1em;
-    color: #fff;
-    font-weight:bold;
-    font-family: times;
+        font-size: 1em;
+        color: #fff;
+        font-weight: bold;
+        font-family: times;
     }
-    
     #skyplane h5 {
-    font-size: 2em;
-    color: #fff;
-    font-weight: 100;
+        font-size: 2em;
+        color: #fff;
+        font-weight: 100;
+        padding: 0
     }
 }
