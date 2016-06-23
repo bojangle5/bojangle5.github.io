@@ -1,8 +1,5 @@
-/*!
- * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
+
+ /*(http://startbootstrap.com)*/
 
 body {
     width: 100%;
@@ -46,7 +43,7 @@ p {
 }
 
 a {
-    color: #42dca3;
+    color: white;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -148,7 +145,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background:linear-gradient(to bottom, rgba(20, 20, 20, 0.7) 0%, rgba(0, 0, 0, 0.1) 100%), url(../img/Vacheron Constantin Harmony Ultra-Thin Grande Complication Chronograph 3.jpg) no-repeat bottom center scroll;
+    background:linear-gradient(to bottom, rgba(20, 20, 20, 0.9) 0%, rgba(0, 0, 0, 0.1) 100%), url(../img/VC_Reference_57260.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -259,14 +256,15 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 100px;
+    padding-top: 175px;
 }
 
 .download-section {
     width: 100%;
-    padding: 50px 0;
+    height: 400px;
+    padding: 150px 0;
     color: #fff;
-    background: url(../img/vacheron-constantin-reference-57260-complications-23.jpg) no-repeat center center scroll;
+    background:linear-gradient(to bottom, rgba(20, 20, 20, 0.7) 0%, rgba(0, 0, 0, 0.1) 100%),url(../img/20150923082047_xgj4z2srwta.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -274,11 +272,11 @@ a:focus {
     -o-background-size: cover;
 }
 
-#map {
+/*#map {
     width: 50%;
     height: 200px;
     margin-top: 100px;
-    text-content: center;
+    text-content: center;*/
 }
 
 @media(min-width:767px) {
@@ -290,10 +288,10 @@ a:focus {
         padding: 100px 0;
     }
 
-    #map {
+    /*#map {
         height: 400px;
         margin-top: 90px;
-    }
+    }*/
 }
 
 .btn {
@@ -314,10 +312,10 @@ a:focus {
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #42dca3;
+    border: 1px solid snow;
     outline: 0;
-    color: #000;
-    background-color: #42dca3;
+    color: snow;
+    background-color: transparent;
 }
 
 ul.banner-social-buttons {
